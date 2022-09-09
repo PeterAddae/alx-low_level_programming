@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Printing
- *
- * Return: Always () (Successful)
+ * main - Print "a text"
+ * Return: Always 0 (Successful) 
  */
+
 int main(void)
 {	
 	puts("\"Programming is like building a mutilingual puzzle");
