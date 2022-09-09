@@ -1,28 +1,25 @@
 #include <stdio.h>
 
 /**
-
-* main - Prints the sizeof many var types
-
 *
-
+* main - Prints the size of many var types
+*
 * Return: Always 0 (Success)
-
 */
 
 int main(void)
 
 {
 
-char a;
+	char a;
 
-int b;
+	int b;
 
-long int c;
+	long int c;
 
-long long int d;
+	long long int d;
 
-float e;
+	float e;
 
 printf("Size of a char: %d byte(s)\n", sizeof(a));
 
