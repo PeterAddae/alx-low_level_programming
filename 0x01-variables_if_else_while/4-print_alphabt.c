@@ -10,7 +10,7 @@ char alphabeth;
 
 for (alphabeth = 'a'; alphabeth <= 'z'; alphabeth++)
 {
-	if (alphabeht == 'q')
+	if (alphabeth == 'q')
 		continue;
 
 	else if (alphabeth == 'e')
