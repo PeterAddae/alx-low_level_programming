@@ -7,5 +7,9 @@
  */
 int _islower(int c)
 {
+<<<<<<< HEAD
 	return (c >= 'a' && c <= 'z');
+=======
+return (c >= 'a' && c <= 'z');
+>>>>>>> 240da01b7f916ee5a68af37202aa566f222066a9
 }
