@@ -53,6 +53,7 @@ int main(void)
    _putchar('a');
    _putchar('r');
    _putchar('\n');
+   
 return (0); 
 }
 >>>>>>> 3bcd5a955193c9552a11bcad59cffc269b754ec0
