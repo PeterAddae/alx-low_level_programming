@@ -14,4 +14,5 @@ return (1);
 }
 
 return (0);
+putchar('\n');
 }
