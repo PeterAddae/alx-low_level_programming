@@ -5,7 +5,6 @@
  * more_numbers - prints numbers to 14
  * Returns: nothing
  */
-
 void more_numbers(void)
 {
 int n1, n2;
@@ -20,6 +19,5 @@ putchar((n2 / 10) + '0');
 }
 putchar((n2 % 10) + '0');
 }
-putchar(10);
 putchar('\n');
 }
