@@ -6,18 +6,19 @@
  * 
  * Return: returns nothing
  */
-
 void print_most_numbers(void)
 {
-int n;
+int c;
 
-for (n = 48; n < 58; n++)
+for (c = 48; c < 58; c++)
 {
-if ((n == 50) || (n == 52))
+if (c != 50)
 {
-continue;
+if (c != 52)
+{
+_putchar(c);
 }
-putchar(n);
 }
-putchar(10);
+}
+_putcahr('\n');
 }
