@@ -2,38 +2,26 @@
 #include "main.h"
 
 /**
-* main - program that prints either number
-* or fizz or buzz or fizzbuzz
-* Return: returns 0
+* print_square - prints a square, followed by a new line;
+* @size: size of the square
 */
-int main(void)
+void print_square(int size)
 {
-int i;
-
-for (i = 1; i <= 100; i++)
-{
-if (i % 3 == 0 && i % 5 != 0)
-{
-printf(" Fizz");
-}
-else if (i % 5 == 0 && i % 3 != 0)
-{
-printf(" Buzz");
-}
-else if (i % 3 == 0 && i % 5 == 0)
-{
-printf(" FizzBuzz");
-}
-else if (i == 1)
-{
-printf("%d", i);
+if (size <= 0)
+{ 
+_putchar('\n');
 }
 else
 {
-printf(" %d", i);
-}
-}
-printf("\n");
+int i, j;
 
-return (0);
+for (i = 0; i < size; i++)
+{
+for (j = 0; j < size; j++)
+{
+_putchar('#');
+}
+_putchar('\n');
+}
+}
 }
