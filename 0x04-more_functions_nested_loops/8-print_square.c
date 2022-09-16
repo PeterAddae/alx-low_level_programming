@@ -6,7 +6,7 @@
  * @size: parameter
  * Return: return nothing
  */
-void print_sqaure(int size)
+void print_square(int size)
 {
 if (size <= 0)
 {
