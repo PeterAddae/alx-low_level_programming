@@ -17,7 +17,7 @@ str++;
 str -= (len / 2);
 while (*str != '\0')
 {
-putchar(*str);
+int putchar(char *str);
 str++;
 }
 putchar('\n');
