@@ -17,7 +17,7 @@ str++;
 str -= (len / 2);
 while (*str != '\0')
 {
-int _putchar(char *str);
+puts_half(*str);
 str++;
 }
 _putchar('\n');
