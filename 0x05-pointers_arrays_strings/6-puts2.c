@@ -18,5 +18,4 @@ if (i % 2 == 0)
 putchar(*(str + i));
 i++;
 }
-putchar(10);
-}
+putchar(10); }
