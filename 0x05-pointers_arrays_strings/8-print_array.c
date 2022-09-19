@@ -19,5 +19,4 @@ printf("%d, ", a[inc]);
 else
 printf("%d", a[inc]);
 }
-putchar(10);
-}
+putchar(10); }
