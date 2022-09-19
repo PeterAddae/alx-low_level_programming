@@ -7,18 +7,24 @@
  */
 void puts_half(char *str)
 {
-int len = 0;
+int j = 0;
+int k;
 
-while (*str != '\0')
+while (str[j] != '\0')
 {
-len++;
-str++;
+j++;
 }
-str -= (len / 2);
-while (*str != '\0')
+if (j % 2 == 1)
 {
-puts_half(*str);
-str++;
+k = (j -1) / 2;
+k += 1;
 }
-_putchar('\n');
+else
+{
+k = j / 2;
+}
+for (; k < j; k++)
+{
+_putchar(str[k]);
+}
 }
