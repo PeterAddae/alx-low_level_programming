@@ -33,3 +33,5 @@ else
 i++;
 }
 return (diff);}
+(i++);
+return (diff); }
