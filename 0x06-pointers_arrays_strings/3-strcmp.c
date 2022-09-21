@@ -46,5 +46,4 @@ break;
 c++;
 }
 
-return (r);
-}
+return (r); }
