@@ -30,5 +30,4 @@ break;
 }
 else
 (i++);
-return (diff);
-}
+return (diff); }
