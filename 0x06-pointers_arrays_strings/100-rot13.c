@@ -27,5 +27,4 @@ break;
 a++;
 }
 
-return (s);
-}
+return (s); }
