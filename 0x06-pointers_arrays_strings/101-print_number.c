@@ -17,11 +17,9 @@ num = -num;
 }
 
 if ((num / 10) > 0)
+{
 print_number(num / 10);
 
-<<<<<<< HEAD
 _putchar(num % 10 + '0');
 }
-=======
 _putchar(x % 10 + '0'); }
->>>>>>> 8849f04c4fc4b58c39b76031b351482704c204fc
