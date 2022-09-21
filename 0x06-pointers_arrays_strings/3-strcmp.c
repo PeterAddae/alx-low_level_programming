@@ -9,27 +9,42 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-int i = 0, diff = 0;
+int a = 0, b = 0, c = 0, r = 0, lim;
 
-while (1)
+while (s1[a])
 {
-if (s1[i] == '\0' && s2[i] == '\0')
-break;
-else if (s1[i] == '\0')
-{
-diff = s2[i];
+a++;
 }
-else if (s2[i] == '\0')
+
+while (s2[b])
 {
-diff = s1[i];
-break;
+b++;
 }
-else if (s1[i] != s2[i])
-diff = s1[i] - s2[i];
-break;
+
+if (a <= b)
+{
+lim = a;
 }
 else
 {
-i++;
+lim = b;
 }
-return (diff); }
+
+while (c <= lim)
+{
+if (s1[c] == s2[c])
+{
+c++;
+continue;
+}
+else
+{
+r = s1[c] - s2[c];
+break;
+}
+
+c++;
+}
+
+return (r);
+}
