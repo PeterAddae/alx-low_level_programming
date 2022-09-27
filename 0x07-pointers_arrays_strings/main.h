@@ -2,6 +2,9 @@
 #define MAIN_H
 
 /**
+* main - function
+* @C: description
+* _putchar: emmener
 * File: main.h
 * Auth: sam tech (samuel birhanu)
 * description: Header file containing prototypes for all functions
