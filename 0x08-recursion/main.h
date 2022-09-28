@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 /**
+* main - function
+* @c: variable
+* Return: value
 * File: main.h
 * Auth: me
 * Desc: Header file containing prototypes for all functions
