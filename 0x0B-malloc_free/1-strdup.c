@@ -21,8 +21,8 @@ s = (char *)  malloc((a + 1) * sizeof(char));
 if (s == NULL)
 return (NULL);
 
- for (b = 0; b < a ; b++)
+for (b = 0; b < a ; b++)
 s[b] = str[b];
-s(a + 1) = '\0';
+s[a + 1] = '\0';
 return (s);
 }
