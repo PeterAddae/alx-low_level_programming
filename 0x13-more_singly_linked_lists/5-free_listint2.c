@@ -12,7 +12,6 @@ listint_t *next_node;
 
 if (!head)
 return;
-
 actual_node = *head;
 next_node = (*head)->next;
 while (next_node)
