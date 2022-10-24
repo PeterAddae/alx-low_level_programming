@@ -24,6 +24,5 @@ aux->next = new;
 }
 else
 *head = new;
-
 return (new);
 }
