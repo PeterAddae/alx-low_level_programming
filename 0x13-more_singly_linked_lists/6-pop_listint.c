@@ -12,7 +12,6 @@ listint_t *first_node = *head;
 
 if (!first_node)
 return (0);
-
 data = (*head)->n;
 *head = first_node->next;
 free(first_node);
