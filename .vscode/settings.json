@@ -2,5 +2,6 @@
     "C_Cpp.errorSquiggles": "Enabled",
     "betty.bettyapp": "undefined",
     "betty.username": "undefined",
-    "betty.apikey": "undefined"
+    "betty.apikey": "undefined",
+    "window.autoDetectColorScheme": true
 }
