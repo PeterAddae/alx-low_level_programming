@@ -3,5 +3,6 @@
     "betty.bettyapp": "undefined",
     "betty.username": "undefined",
     "betty.apikey": "undefined",
-    "window.autoDetectColorScheme": true
+    "window.autoDetectColorScheme": true,
+    "window.commandCenter": true
 }
