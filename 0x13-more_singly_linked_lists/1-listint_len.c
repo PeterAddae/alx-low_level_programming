@@ -15,6 +15,5 @@ while (node)
 cont++;
 node = node->next;
 }
-
 return (cont);
 }
