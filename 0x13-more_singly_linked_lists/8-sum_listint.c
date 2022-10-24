@@ -15,6 +15,5 @@ while (node)
 sum += node->n;
 node = node->next;
 }
-
 return (sum);
 }
