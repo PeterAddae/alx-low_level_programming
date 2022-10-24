@@ -32,6 +32,7 @@ while (aux_node && cont != idx)
 cont++;
 aux_node = aux_node->next;
 }
+
 /* general case */
 if (cont == idx && aux_node)
 {
@@ -40,6 +41,5 @@ aux_node->next = node_to_delete->next;
 free(node_to_delete);
 return (1);
 }
-
 return (-1);
 }
